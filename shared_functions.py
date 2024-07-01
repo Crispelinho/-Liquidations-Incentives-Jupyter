@@ -67,7 +67,7 @@ class DataframeLoader:
             self.fecha_liquidacion = fecha_liquidacion
             
         if 'meses_incentivos' not in locals():
-            meses_incentivos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+            meses_incentivos = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
             self.meses_incentivos = meses_incentivos
         if 'df_resultado_detallado_previo' not in locals():
             df_resultado_detallado_previo = pd.read_excel(
